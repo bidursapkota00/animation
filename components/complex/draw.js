@@ -1,3 +1,4 @@
+import Script from "next/script";
 import { useEffect } from "react";
 
 const Draw = () => {
@@ -32,8 +33,26 @@ const Draw = () => {
   });
   return (
     <div>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/CSSRulePlugin.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/Draggable.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EaselPlugin.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/MotionPathPlugin.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/PixiPlugin.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EasePack.js"></Script>
+
       <svg height="600" width="900">
-        <image id="hand" href="./hand.png" x="325" y="480" width="100px" height="100px" />
+        <image
+          id="hand"
+          href="./hand.png"
+          x="325"
+          y="480"
+          width="100px"
+          height="100px"
+        />
         <path
           id="path"
           d="M364.5,493.5c-109,26-197.9-28.2-243.4
