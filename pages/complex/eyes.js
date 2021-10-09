@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Head from "next/head";
 
 export default function Eyes() {
   useEffect(() => {
@@ -101,18 +100,16 @@ export default function Eyes() {
   });
   return (
     <div>
-      <Head>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/CSSRulePlugin.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/Draggable.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EaselPlugin.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/MotionPathPlugin.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/PixiPlugin.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EasePack.js"></script>
-      </Head>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/CSSRulePlugin.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/Draggable.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EaselPlugin.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/MotionPathPlugin.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/PixiPlugin.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EasePack.js"></script>
       <svg id="svgContainer" className="eye_svg"></svg>
     </div>
   );

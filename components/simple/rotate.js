@@ -15,7 +15,7 @@ const Rotate = () => {
   return (
     <svg width="900" height="650">
       <rect
-        class="rect"
+        className="rect"
         x="400"
         y="300"
         width="100"
@@ -24,7 +24,7 @@ const Rotate = () => {
         stroke="black"
       />
       <rect
-        class="rect"
+        className="rect"
         x="200"
         y="300"
         width="100"

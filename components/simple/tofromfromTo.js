@@ -8,15 +8,15 @@ const ToFrom = () => {
   });
   return (
     <div>
-      <div id="b" class="circle">
+      <div id="b" className="circle">
         {" "}
         <p>gsap.to()</p>{" "}
       </div>
-      <div id="g" class="circle">
+      <div id="g" className="circle">
         {" "}
         <p>gsap.from()</p>{" "}
       </div>
-      <div id="r" class="circle">
+      <div id="r" className="circle">
         {" "}
         <p>gsap.fromTo()</p>{" "}
       </div>

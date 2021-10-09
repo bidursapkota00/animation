@@ -63,8 +63,8 @@ const Draw = () => {
 		-5.2,14.4,21.4,3.7,6,3"
           fill="none"
           stroke="blue"
-          stroke-width="4"
-          stroke-dasharray="0 4046"
+          strokeWidth="4"
+          strokeDasharray="0 4046"
         />
       </svg>
       <button id="pause">pause</button>
