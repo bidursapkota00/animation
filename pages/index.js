@@ -2,20 +2,21 @@ import Rotate from "../components/simple/rotate";
 import ToFrom from "../components/simple/tofromfromTo";
 import WheelCircle from "../components/simple/wheelCircle";
 import Draw from "../components/complex/draw";
+import Script from "next/script"
 
 export default function Home() {
   return (
     <div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/CSSRulePlugin.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/Draggable.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EaselPlugin.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/MotionPathPlugin.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/PixiPlugin.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EasePack.js"></script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/CSSRulePlugin.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/Draggable.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EaselPlugin.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/MotionPathPlugin.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/PixiPlugin.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.js"></Script>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EasePack.js"></Script>
 
       {/* DrawSVGPlugin.js, Flip.js, GSDevTools.js, InertiaPlugin.js, MorphSVGPlugin.js, MotionPathHelper.js,
          Physics2DPlugin.js, PhysicsPropsPlugin.js, ScrambleTextPlugin.js, SplitText.js, CustomBounce.js,
